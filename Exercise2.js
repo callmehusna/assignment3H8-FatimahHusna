@@ -1,6 +1,6 @@
 function threeStepsAB(text){
     let arrText = [...text]
-    for (let i = 0; i < arrText.length; i++) {
+    for (let i = 0; i < arrText.length-4; i++) {
         if (arrText[i] == "a" || arrText[i] == "A"){
             //console.log(arrText[i], arrText[i+3])
             if (arrText[i+4] == "b" || arrText[i+4] == "B") {
